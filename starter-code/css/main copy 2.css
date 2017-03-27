@@ -1,0 +1,18 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+
+  background: url("../images/bgtile.png") #fff repeat-x fixed;;
+}
+
+div.container {
+  width: 950px;
+  background-color: red;
+  margin: 80px  auto; /* p  auto in container so you can float */
+}

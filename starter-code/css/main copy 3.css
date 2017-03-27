@@ -1,0 +1,29 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+
+  background: url("../images/bgtile.png") #fff repeat-x fixed;;
+}
+
+div.container {
+  width: 950px;
+  background-color: red;
+  margin: 90px  auto; /*  auto in container so you can float */
+  overflow: hidden;  /* Put float clean in parent  */
+}
+
+div.float-phone {
+  float: left;
+
+
+}
+
+footer {
+  text-align: center;
+}
